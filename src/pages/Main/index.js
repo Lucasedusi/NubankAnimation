@@ -42,7 +42,7 @@ export default function Main() {
 
       offset += translationY;
 
-      if (translationY >= 50) {
+      if (translationY >= 20) {
         opened = true;
       } else {
         translateY.setValue(offset);
